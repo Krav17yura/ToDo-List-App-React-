@@ -1,0 +1,50 @@
+.btn-icon-first {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 1px;
+    height: 36px;
+    margin-right: 3px;
+    padding: 0px 13.4px 0px 13px;
+    font-size: 16px;
+    border: 1.5px solid tomato;
+    color: red;
+    background-color:#ffff;
+    float: right;
+}
+.btn-icon-first:hover{
+    background-color:blueviolet;
+}
+
+.btn-icon-second {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 1px;
+    height: 36px;
+    margin-right: 1px;
+    padding: 0px 13.4px 0px 13px;
+    font-size: 16px;
+    border: 1.5px solid rgb(42, 180, 104);
+    color: green;
+    background-color:#ffff;
+    float: right;
+}
+.btn-icon-second:hover{
+    background-color:plum;
+}
+.todo__item{
+    position: relative;
+    top: 6px;
+    
+}
+ 
+.important{
+    color: orange;
+    font-weight: bold;
+}
+.done{
+    text-decoration: line-through;
+    color: green;
+    font-weight: bold;
+}
+ 
+ 

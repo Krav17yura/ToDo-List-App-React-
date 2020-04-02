@@ -1,0 +1,44 @@
+ 
+
+.add__btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 1px;
+    height: 36px;
+    margin: 10px 0 0 0;
+    padding: 0px 15px 1px 13px;
+    font-size: 20px;
+    border: 1.5px solid rgba(16, 111, 158, 0.6);
+    background-color: #fff; 
+    color: hotpink;
+}
+.add__btn:hover{
+    transition-duration: 1000ms;
+    background-color: rgba(16, 111, 158, 0.993);
+    color: rgba(156, 209, 9, 0.6);
+}
+
+.add__input {
+     
+    border: 1.5px solid rgba(211, 215, 217, 0.6);
+    background-color: #ffffff;
+    text-align: start;
+    padding: 5px 12px 5px 5px;
+    margin: 0 3px 0 0;
+    color: #929292;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+
+
+@media(max-width: 491px){
+    .add__input {
+          margin-top: 5px;
+          width: 100%;
+    }
+    .add__btn{
+        width: 100%;
+    }
+   
+}

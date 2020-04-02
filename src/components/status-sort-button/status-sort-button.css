@@ -1,0 +1,38 @@
+.sort__block {
+    display: inline-block;
+}
+
+.sort__row {
+    display: flex;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 1px;
+    height: 36px;
+    margin-right: 1px;
+    padding: 0px 13.4px 0px 13px;
+    font-size: 16px;
+    border: 1.5px solid rgba(211, 215, 217, 0.6);
+    background-color: #fff; 
+}
+.btn:first-child{
+    border-radius: 8px 0 0 8px;
+}
+.btn:last-child{
+    border-radius: 0px 8px 8px 0px;
+}
+.btn:hover{
+    background-color: rgb(170, 129, 129);
+}
+.active{
+    background-color: yellowgreen;
+}
+
+@media(max-width: 496px){
+    .sort__block{
+        display: flex;
+        justify-content: center;
+    }
+}
